@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- fonts here -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Italiana&family=Lato:wght@300;400&display=swap" rel="stylesheet"> 
+
+    <!-- styles here -->
+    <link rel="stylesheet" href="./styles/styles.css">
+
+    <!-- font-awesome here -->
+    <script src="https://kit.fontawesome.com/887ea216a3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <!-- header contains the horizontal menu, the background, the logo and then side nav
+        1.adding the bg to the whole header
+        2. wrapper class inside-->
+        <div class="wrapper ">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <button class="hamburger"><i class="fa-solid fa-bars "></i></button>
+            </nav>
+
+            <!-- assuming the logo might have an image in at some point -->
+            <div class="logo">
+                <h1>-ARO- <span>RA</span></h1>
+                <h2>Jewelers</h2>
+            </div>
+
+            <!-- buttons with icons -->
+            <div >
+                <ul class="social">
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-snapchat"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                </ul>
+            </div>
+
+
+        </div>
+    </header>
+    <main>
+        <!-- handcrafted section -->
+        <section class="handCraftedOuter">
+            <div class="wrapper handCrafted">
+                <div class="imgContainer">
+                    <img src="./assets/assets/image-6@2x.png" alt="">
+                </div>
+
+                <div class="rightSide">
+                    <h3>Hand Crafted</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam facere nobis perspiciatis, quo aliquam itaque sit praesentium veniam impedit quae. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque officia consequuntur perferendis eum praesentium corrupti quibusdam laborum illum deserunt quisquam natus est quidem ratione facere esse ad mollitia, aut numquam. Assumenda, perspiciatis. Repellendus tempore iste eligendi, doloremque sit voluptatum quisquam deleniti cum odio temporibus totam esse sequi blanditiis sapiente modi.</p>
+                    <button class="readMoreButton">
+                        
+                            Read More
+                        
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- latest collection -->
+        <section class="latestCollectionOuter">
+            <div class="wrapper">
+                <h3>LATEST COLLECTION</h3>
+                <div class="latestCollection">
+                    <img class="dontHide" src="./assets/assets/image-2_2@2x.png" alt="an image of beautiful golden and solver pendents hanging">
+                    <img class="dontHide" src="./assets/assets/image-4@2x.png" alt="dramatic photo of rings">
+                    <img src="./assets/assets/image-3.jpg" class="hideOnSmallScreens" alt="golden earrings with pearls">
+                </div>
+            </div>
+        </section>
+
+        <!-- catalogue,events, collaborators -->
+        <section class="linksOuter">
+            <ul class="links wrapper">
+                <li>
+                    <a href="#">
+                        <div class="card">
+                            <i class="fa-solid fa-images"></i>
+                            <h4>Catalogue</h4>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="card">
+                            <i class="fa-solid fa-calendar-days"></i>
+                            <h4>Events</h4>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="card">
+                            <i class="fa-solid fa-handshake"></i>
+                            <h4>Collaboarators</h4>
+                            
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+        <!-- materials and mix section -->
+        <section class="materialsOuter">
+            <div class="upper">
+                <div class="content">
+                    <div class="contentWrapper">
+                        <h3>Sustainable Materials</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias assumenda quia quae doloremque omnis, possimus perferendis voluptatem? Labore, sunt sapiente. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo vero, accusantium cumque placeat perspiciatis quam, natus omnis molestias dolorum doloremque nostrum numquam? Quaerat laudantium veniam quos natus fugiat possimus libero. </p>
+                        <button class="readMoreButton">Read More</button>
+                    </div>
+                </div>
+                <div class="susImage">
+                    <img src="./assets/assets/andie-gomez-acebo-744590-unsplash.jpg" alt="andie gomez wearing couple of necklaces made of sustainable materials">
+                </div>
+            </div>
+            <div class="lower">
+                <div class="susImage">
+                    <img src="./assets/assets/image-2-copy@2x.png" alt="hand with a designer watch and 2 rings, one on the pinky and ring finger each">
+                </div>
+                <div class="content">
+                    <div class="contentWrapper">
+                        <h3>Mix & Match</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias assumenda quia quae doloremque omnis, possimus perferendis voluptatem? Labore, sunt sapiente. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo vero, accusantium cumque placeat perspiciatis quam, natus omnis molestias dolorum doloremque nostrum numquam? Quaerat laudantium veniam quos natus fugiat possimus libero. </p>
+                        <button class="readMoreButton">Read More</button>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+
+    </main>
+    <footer>
+        <section class="stayUpdatedOuter wrapper">
+            <ul class="bottomNav">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">GALLERY</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+            <form action="submit" method="get">
+                <h4>STAY UPDATED</h4>
+                <label for="emailField">Subscribe to our newsletter to stay updated</label><input type="text" name="emailField"><button>Subscribe</button>
+            </form>
+            <div class="contactInfo">
+                <h4>Contact</h4>
+                <p>info@gmail.com|123-456-7890</p>
+                <p>123 some road, Toronto, ON</p>
+                <p> A5A 5A5,Canada</p>
+            </div>
+                
+            
+
+        </section>
+        <P class="copyright"> Copyright &copy; 2019 HackerYou</P>
+    </footer>
+</body>
+</html>
